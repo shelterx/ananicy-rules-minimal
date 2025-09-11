@@ -1,0 +1,147 @@
+# KDE
+# Baloo is the file indexing and file search framework for KDE.
+{ "name": "baloo_file", "type": "BG_CPUIO" }
+{ "name": "kdeconnectd", "type": "BG_CPUIO" }
+# https://github.com/KDE/kded
+{ "name": "kded6", "type": "BG_CPUIO" }
+# https://lxr.kde.org/source/plasma/plasma-desktop/kaccess/
+{ "name": "kaccess", "type": "BG_CPUIO" }
+# https://github.com/KDE/plasma-workspace/blob/master/ksmserver/README
+{ "name": "ksmserver", "type": "BG_CPUIO" }
+{ "name": "krunner", "type": "LowLatency_RT" }
+
+# Systemd - https://wiki.archlinux.org/title/systemd-resolved - https://www.freedesktop.org/wiki/Software/systemd/
+{ "name": "systemd-timesyncd", "type": "BG_CPUIO" }
+{ "name": "systemd-resolved", "type": "BG_CPUIO" }
+
+# Open-source printing system: https://www.cups.org/
+{ "name": "cups-browsed", "type": "BG_CPUIO" }
+{ "name": "cupsd", "type": "BG_CPUIO" }
+
+# Tools
+{ "name": "rsync", "type": "BG_CPUIO" }
+{ "name": "7z", "type": "BG_CPUIO" }
+{ "name": "unrar", "type": "BG_CPUIO" }
+{ "name": "unzip", "type": "BG_CPUIO" }
+{ "name": "zip", "type": "BG_CPUIO" }
+{ "name": "smartd", "type": "BG_CPUIO" }
+{ "name": "ark", "type": "BG_CPUIO" }
+{ "name": "bsdtar", "type": "BG_CPUIO" }
+{ "name": "tar", "type": "BG_CPUIO" }
+
+# QT bittorrent client
+{ "name": "qbittorrent", "type": "BG_CPUIO" }
+{ "name": "qbittorrent-nox", "type": "BG_CPUIO" }
+
+# Conky system meter
+{ "name": "conky", "type": "BG_CPUIO" }
+
+# LACT
+{ "name": "lact", "type": "BG_CPUIO" }
+
+# CoolerControl
+{ "name": "coolercontrol", "type": "BG_CPUIO" }
+{ "name": "coolercontrold", "type": "BG_CPUIO" }
+{ "name": "coolercontrol-liqctld", "type": "BG_CPUIO" }
+
+# GWE
+{ "name": "gwe", "type": "BG_CPUIO" }
+
+# WINE processes
+{ "name": "tabtip.exe", "type": "BG_CPUIO" }
+{ "name": "explorer.exe", "type": "BG_CPUIO" }
+{ "name": "plugplay.exe", "type": "BG_CPUIO" }
+
+# An Open Source Epic Games and GOG launcher: https://heroicgameslauncher.com/
+{ "name": "gogdl", "type": "BG_CPUIO" }
+{ "name": "heroic", "type": "Doc-View" }
+{ "name": "legendary", "type": "IN_DIFF" }
+
+# VK Play GameCenter is a launcher of the vkplay 
+{ "name": "GameCenter.exe", "type": "BG_CPUIO" }
+
+# Epic Games Launcher
+{ "name": "EpicGamesLauncher.exe", "type": "BG_CPUIO" }
+
+# integrated web browser
+{ "name": "EpicWebHelper.exe", "type": "BG_CPUIO" }
+
+# online services
+{ "name": "EpicOnlineServicesHost.exe", "type": "BG_CPUIO" }
+{ "name": "EpicOnlineServices.exe", "type": "BG_CPUIO" }
+{ "name": "EpicOnlineServicesUIHelper.exe", "type": "BG_CPUIO" }
+{ "name": "EpicOnlineServicesUserHelper.exe", "type": "BG_CPUIO" }
+{ "name": "EpicOnlineServicesInstallHelper.exe", "type": "BG_CPUIO" }
+
+# Rules for EA Origin Launcher
+# EA Origin Launcher
+{ "name": "Origin.exe", "type": "BG_CPUIO" }
+
+# integrated service
+{ "name": "EAStreamProxy.exe", "type": "BG_CPUIO" }
+
+# integrated webupc engine
+{ "name": "QtWebEngineProcess.exe", "type": "BG_CPUIO" }
+
+# Rules for EA Desktop App Launcher
+{ "name": "EADesktop.exe", "type": "BG_CPUIO" }
+{ "name": "EALauncher.exe", "type": "BG_CPUIO" }
+
+# integrated services
+{ "name": "EABackgroundService.exe", "type": "BG_CPUIO" }
+{ "name": "EAConnect_microsoft.exe", "type": "BG_CPUIO" }
+{ "name": "EACrashReporter.exe", "type": "BG_CPUIO" }
+{ "name": "EAGEP.exe", "type": "BG_CPUIO" }
+{ "name": "EALaunchHelper.exe", "type": "BG_CPUIO" }
+{ "name": "EAStreamProxy.exe", "type": "BG_CPUIO" }
+{ "name": "EAUninstall.exe", "type": "BG_CPUIO" }
+{ "name": "ErrorReporter.exe", "type": "BG_CPUIO" }
+{ "name": "GetGameToken32.exe", "type": "BG_CPUIO" }
+{ "name": "GetGameToken64.exe", "type": "BG_CPUIO" }
+{ "name": "IGOProxy32.exe", "type": "BG_CPUIO" }
+{ "name": "Link2EA.exe", "type": "BG_CPUIO" }
+{ "name": "OriginLegacyCompatibility.exe", "type": "BG_CPUIO" }
+
+# integrated web engine
+{ "name": "QtWebEngineProcess.exe", "type": "BG_CPUIO" }
+
+# Rules for Steam
+{ "name": "Steam.exe", "type": "BG_CPUIO" }
+{ "name": "steamwebhelper", "type": "BG_CPUIO" }
+
+# Steam integrated web browser
+{ "name": "steamwebhelper.exe", "type": "BG_CPUIO" }
+
+# Uplay is a Digital distribution, digital rights management, multiplayer and communications service developed by Ubisoft https://uplay.ubisoft.com/
+{ "name": "UbisoftConnect.exe", "type": "BG_CPUIO" }
+{ "name": "UbisoftGameLauncher.exe", "type": "BG_CPUIO" }
+{ "name": "UbisoftGameLauncher64.exe", "type": "BG_CPUIO" }
+{ "name": "upc.exe", "type": "BG_CPUIO" }
+{ "name": "UplayWebCore.exe", "type": "BG_CPUIO" }
+{ "name": "UplayService.exe", "type": "BG_CPUIO" }
+
+# Unified games launcher: https://github.com/tkashkin/GameHub
+{ "name": "com.github.tkashkin.gamehub", "type": "BG_CPUIO" }
+
+# Misc launchers
+{ "name": "arma3launcher.exe", "type": "BG_CPUIO" }
+{ "name": "Redprelauncher", "type": "BG_CPUIO" }
+{ "name": "DayZLauncher.exe", "type": "BG_CPUIO" }
+{ "name": "UnityCrashHandler64.exe", "type": "BG_CPUIO" }
+{ "name": "squad_launcher.exe", "type": "BG_CPUIO" }
+{ "name": "CrashReportClient.exe", "type": "BG_CPUIO" }
+{ "name": "crashpad_handler.exe", "type": "BG_CPUIO" }
+{ "name": "CrGpuMain.exe", "type": "BG_CPUIO" }
+{ "name": "CrUtilityMain.exe", "type": "BG_CPUIO" }
+{ "name": "WoWSLauncher.exe", "type": "BG_CPUIO" }
+{ "name": "Launcher.exe", "type": "BG_CPUIO" }
+
+# vmware workstation
+{ "name": "vmware-vmx", "nice": 5}
+
+# Optional - uncomment these if you want them, these may or may not increase snappiess of KDE/Xwayland.
+#{ "name": "kwin_wayland", "type": "LowLatency_RT" }
+#{ "name": "kwin_wayland_wrapper", "type": "LowLatency_RT" }
+#{ "name": "kwin_x11", "type": "LowLatency_RT" }
+#{ "name": "plasmashell", "nice": -1 }
+#{ "name": "Xwayland", "type": "LowLatency_RT" }

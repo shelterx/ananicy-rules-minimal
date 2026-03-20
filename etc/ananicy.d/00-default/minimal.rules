@@ -145,7 +145,7 @@
 { "name": "Launcher.exe", "type": "BG_CPUIO" }
 
 # vmware workstation
-{ "name": "vmware-vmx", "nice": 5}
+{ "name": "vmware-vmx", "nice": 5, "ioclass": "best-effort", "ionice": 7 }
 
 # Optional - uncomment these if you want them, these may or may not increase snappiess of KDE/Xwayland.
 #{ "name": "kwin_wayland", "type": "LowLatency_RT" }

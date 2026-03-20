@@ -10,10 +10,6 @@
 { "name": "ksmserver", "type": "BG_CPUIO" }
 { "name": "krunner", "type": "LowLatency_RT" }
 
-# Systemd - https://wiki.archlinux.org/title/systemd-resolved - https://www.freedesktop.org/wiki/Software/systemd/
-{ "name": "systemd-timesyncd", "type": "BG_CPUIO" }
-{ "name": "systemd-resolved", "type": "BG_CPUIO" }
-
 # Open-source printing system: https://www.cups.org/
 { "name": "cups-browsed", "type": "BG_CPUIO" }
 { "name": "cupsd", "type": "BG_CPUIO" }

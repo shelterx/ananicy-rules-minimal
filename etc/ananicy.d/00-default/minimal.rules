@@ -131,6 +131,9 @@
 # Prism Launcher
 { "name": "prismlauncher", "type": "BG_CPUIO" }
 
+# Faugus Launcher
+{ "name": "faugus-launcher", "type": "BG_CPUIO" }
+
 # Misc launchers
 { "name": "arma3launcher.exe", "type": "BG_CPUIO" }
 { "name": "Redprelauncher", "type": "BG_CPUIO" }
